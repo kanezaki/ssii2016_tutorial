@@ -1,0 +1,16 @@
+<package>
+  <description brief="save_pcd">
+
+     save_pcd
+
+  </description>
+  <author>kanezaki</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/save_pcd</url>
+  <depend package="pcl_ros"/>
+  <depend package="cv_bridge"/>
+
+</package>
+
+

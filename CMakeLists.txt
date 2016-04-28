@@ -30,6 +30,7 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 #target_link_libraries(example ${PROJECT_NAME})
 
 rosbuild_add_executable(save_pcd save_pcd.cpp)
+rosbuild_add_executable(removeNANfromPCD removeNANfromPCD.cpp)
 rosbuild_add_executable(convertpcd2ply convertpcd2ply.cpp)
 rosbuild_add_executable(correspondence_grouping correspondence_grouping.cpp)
 
